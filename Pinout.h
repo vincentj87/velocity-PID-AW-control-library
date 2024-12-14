@@ -6,9 +6,10 @@
 #define DIR2B 17
 #define PPR 984.0
 
-#define KP_value 1.5
-#define KI_value 25.0
-#define KD_value 0.02
+//change this depends on your plant
+#define KP_value 0.0
+#define KI_value 0.0
+#define KD_value 0.0
 
 #define encM2A 34
 #define encM2B 35
