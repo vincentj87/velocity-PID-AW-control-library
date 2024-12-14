@@ -1,6 +1,8 @@
-# How to use :
-## definition
+# definition
 Anti-windup in a PID controller prevents the integral term from continuously accumulating when the actuator reaches its output limit. Without anti-windup, the error can increase significantly because the actuator can't produce a higher output, causing the integral term to 'wind up' and leading to instability or poor control performance
+
+# How to use :
+
 ## depedency 
 this library depended on __[ESP32Encoder](https://github.com/madhephaestus/ESP32Encoder)__  library by madhephaestus
 
