@@ -1,5 +1,6 @@
 # definition
 Anti-windup in a PID controller prevents the integral term from continuously accumulating when the actuator reaches its output limit. Without anti-windup, the error can increase significantly because the actuator can't produce a higher output, causing the integral term to 'wind up' and leading to lag or poor control performance
+
 ![image](https://github.com/user-attachments/assets/f6eaaa6a-1ae3-4e19-8325-cf3af421aad9)
 
 # How to use :
